@@ -14,7 +14,7 @@ public class Client
 
     public static void main(String[] args)  throws IOException , ClassNotFoundException
     {
-        Socket server = new Socket("192.168.43.168", 9876);
+        Socket server = new Socket("127.0.0.1", 9876);
         System.out.println("Hello");
 
         ObjectInputStream in = new ObjectInputStream(server.getInputStream());
