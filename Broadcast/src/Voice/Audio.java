@@ -54,7 +54,7 @@ public class Audio
             int numBytesRead;
             byte[] data = new byte[buffsize];
 
-            addr = InetAddress.getByName("192.168.1.100");
+            addr = InetAddress.getByName("127.0.0.1");
             DatagramSocket socket = new DatagramSocket();
             while (true)
             {
